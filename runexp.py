@@ -299,7 +299,7 @@ def main(memo, traffic_file_list,roadnet_file,num_row,num_col,path_to_data,worke
             "PATH_TO_DATA": path_to_data,
             "PATH_TO_PRETRAIN_MODEL": os.path.join("model", "initial", traffic_file),
             "PATH_TO_PRETRAIN_WORK_DIRECTORY": os.path.join("records", "initial", traffic_file),
-            "PATH_TO_ERROR": os.path.join("errors", memo)
+            "PATH_TO_ERROR": os.path.join("errors", memo),
             "PATH_TO_PRETRAIN_DATA": "data/template",
             "PATH_TO_AGGREGATE_SAMPLES": "records/initial"
         }
